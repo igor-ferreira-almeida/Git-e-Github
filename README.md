@@ -2,7 +2,13 @@
 
 ## Desfazer commit
 
+```
 git revert ID_COMMIT 
+```
 
-ID_COMMIT pode ser obtido pelo com comando git log
+ID_COMMIT pode ser obtido pelo com comando:
+
+```
+git log
+```
 
