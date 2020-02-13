@@ -1,5 +1,12 @@
 # Git-e-Github
 
+
+## Desfazer add 
+
+```
+git reset CAMINHO_DO_ARQUIVO/ARQUIVO
+```
+
 ## Desfazer commit
 
 ```
@@ -12,8 +19,8 @@ ID_COMMIT pode ser obtido pelo com comando:
 git log
 ```
 
-## Desfazer add 
+## Clone Branch
 
 ```
-git reset CAMINHO_DO_ARQUIVO/ARQUIVO
+git checkout -b <nome-do-seu-branch-local> origin/<nome-do-branch-remoto>
 ```
