@@ -1,5 +1,10 @@
 # Git-e-Github
 
+## Desfazer alterações
+
+```
+git checkout .
+```
 
 ## Desfazer add 
 
