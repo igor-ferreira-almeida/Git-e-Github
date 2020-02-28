@@ -6,6 +6,12 @@
 git checkout .
 ```
 
+## Limpar Untracked files
+
+```
+git clean -f
+```
+
 ## Desfazer add 
 
 ```
