@@ -42,6 +42,10 @@ Local:
 ```
 git branch -d BRANCH_NAME
 ```
+Local com merge pendente:
+```
+git branch -D BRANCH_NAME
+```
 
 Remoto:
 ```
