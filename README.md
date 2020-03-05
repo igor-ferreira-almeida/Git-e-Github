@@ -35,3 +35,15 @@ git log
 ```
 git checkout -b <nome-do-seu-branch-local> origin/<nome-do-branch-remoto>
 ```
+
+## Remover Branch
+
+Local:
+```
+git branch -d BRANCH_NAME
+```
+
+Remoto:
+```
+git push origin --delete BRANCH_NAME
+```
