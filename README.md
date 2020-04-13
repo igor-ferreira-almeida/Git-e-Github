@@ -51,3 +51,9 @@ Remoto:
 ```
 git push origin --delete BRANCH_NAME
 ```
+
+## Rodar os testes novamente no Github
+
+```
+rp test
+```
