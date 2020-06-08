@@ -6,6 +6,12 @@
 git checkout .
 ```
 
+## Adicionar origem Remota
+
+```
+git remote add origin https://github.com/user/repo.git
+```
+
 ## Limpar Untracked files
 
 ```
@@ -16,6 +22,7 @@ git clean -f
 
 ```
 git reset CAMINHO_DO_ARQUIVO/ARQUIVO
+git reset --hard
 ```
 
 ## Desfazer commit
