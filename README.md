@@ -12,10 +12,19 @@ git checkout .
 git remote add origin https://github.com/user/repo.git
 ```
 
+
+
+
 ## Limpar Untracked files
 
 ```
 git clean -f
+```
+
+### Caso seja o arquivo ".DS_Store"
+
+```
+find . -name '.DS_Store' -type f -delete
 ```
 
 ## Desfazer add 
