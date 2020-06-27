@@ -70,8 +70,15 @@ ID_COMMIT pode ser obtido pelo com comando:
 git log
 ```
 
-## Clone Branch
+## Clone Branch Remota
 
+### Para atualizar suas branches com as remotas
+
+```
+git fetch --all
+```
+
+### Clonando e alternando para a branch
 ```
 git checkout -b <nome-do-seu-branch-local> origin/<nome-do-branch-remoto>
 ```
