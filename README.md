@@ -45,6 +45,11 @@ git restore ARQUIVO
 git clean -f
 ```
 
+### Remover a pasta também
+```
+git clean -df
+```
+
 ### Caso seja o arquivo ".DS_Store"
 
 ```
